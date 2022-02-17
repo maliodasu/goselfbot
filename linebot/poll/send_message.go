@@ -206,7 +206,7 @@ func autoLeaveRoomOnCommand(ctx context.Context, op *talkservice.Operation, clie
 
 	msg := new(talkservice.Message)
 	msg.To = to
-	msg.Text = "オンにしました。"
+	msg.Text = "turned on."
 
 	_, err = client.TalkServiceClient.SendMessage(ctx, 0, msg)
 	if err != nil {
@@ -231,7 +231,7 @@ func autoLeaveRoomOffCommand(ctx context.Context, op *talkservice.Operation, cli
 
 	msg := new(talkservice.Message)
 	msg.To = to
-	msg.Text = "オフにしました。"
+	msg.Text = "turned off."
 
 	_, err = client.TalkServiceClient.SendMessage(ctx, 0, msg)
 	if err != nil {
@@ -278,7 +278,7 @@ func setPoint(ctx context.Context, op *talkservice.Operation, client *lineclient
 
 	msg := new(talkservice.Message)
 	msg.To = message.To
-	msg.Text = "セットしたよ"
+	msg.Text = "read point set"
 
 	_, err := client.TalkServiceClient.SendMessage(ctx, 0, msg)
 	if err != nil {
@@ -295,7 +295,7 @@ func readPoint(ctx context.Context, op *talkservice.Operation, client *lineclien
 
 	readers, ok := cfg.ReadPoint[message.To]
 	if !ok {
-		msg.Text = "既読ポイントが設定されていません"
+		msg.Text = "No read point has been set"
 		_, err := client.TalkServiceClient.SendMessage(ctx, 0, msg)
 		if err != nil {
 			return err
@@ -313,7 +313,7 @@ func readPoint(ctx context.Context, op *talkservice.Operation, client *lineclien
 	}
 
 	if msg.Text == "" {
-		msg.Text = "誰もいないよ"
+		msg.Text = "There is no one read"
 	}
 
 	strings.TrimRight(msg.Text, "\n")
