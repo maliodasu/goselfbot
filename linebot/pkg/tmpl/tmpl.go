@@ -7,8 +7,8 @@ import (
 	"html/template"
 	"strings"
 
-	"github.com/mopeneko/line-selfbot/linebot/pkg/lineclient"
-	"github.com/mopeneko/line-selfbot/linethrift/talkservice"
+	"github.com/prosoxwb/goselfbot/linebot/pkg/lineclient"
+	"github.com/prosoxwb/goselfbot/linethrift/talkservice"
 )
 
 //go:embed templates/*.tmpl

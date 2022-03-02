@@ -1,4 +1,4 @@
-module github.com/mopeneko/line-selfbot
+module github.com/prosoxwb/goselfbot
 
 go 1.16
 

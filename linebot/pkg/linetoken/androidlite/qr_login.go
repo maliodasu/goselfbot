@@ -7,10 +7,10 @@ import (
 
 	"github.com/skip2/go-qrcode"
 
-	"github.com/mopeneko/line-selfbot/linebot/pkg/config"
-	"github.com/mopeneko/line-selfbot/linebot/pkg/lineclient"
-	"github.com/mopeneko/line-selfbot/linethrift/secondaryqrcodeloginpermitnoticeservice"
-	"github.com/mopeneko/line-selfbot/linethrift/secondaryqrcodeloginservice"
+	"github.com/prosoxwb/goselfbot/linebot/pkg/config"
+	"github.com/prosoxwb/goselfbot/linebot/pkg/lineclient"
+	"github.com/prosoxwb/goselfbot/linethrift/secondaryqrcodeloginpermitnoticeservice"
+	"github.com/prosoxwb/goselfbot/linethrift/secondaryqrcodeloginservice"
 	"golang.org/x/xerrors"
 )
 

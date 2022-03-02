@@ -3,7 +3,7 @@ package lineclient
 import (
 	"context"
 
-	"github.com/mopeneko/line-selfbot/linethrift/talkservice"
+	"github.com/prosoxwb/goselfbot/linethrift/talkservice"
 	"golang.org/x/xerrors"
 )
 

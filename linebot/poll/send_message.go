@@ -8,10 +8,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mopeneko/line-selfbot/linebot/config"
-	"github.com/mopeneko/line-selfbot/linebot/pkg/lineclient"
-	"github.com/mopeneko/line-selfbot/linebot/pkg/tmpl"
-	"github.com/mopeneko/line-selfbot/linethrift/talkservice"
+	"github.com/prosoxwb/goselfbot/linebot/config"
+	"github.com/prosoxwb/goselfbot/linebot/pkg/lineclient"
+	"github.com/prosoxwb/goselfbot/linebot/pkg/tmpl"
+	"github.com/prosoxwb/goselfbot/linethrift/talkservice"
 )
 
 func sendMessage(ctx context.Context, op *talkservice.Operation, client *lineclient.LINEClient, cfg *config.Config) error {

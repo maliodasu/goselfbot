@@ -9,11 +9,11 @@ import (
 	"os"
 	"path/filepath"
 
-	config2 "github.com/mopeneko/line-selfbot/linebot/config"
-	"github.com/mopeneko/line-selfbot/linebot/pkg/config"
-	"github.com/mopeneko/line-selfbot/linebot/pkg/lineclient"
-	"github.com/mopeneko/line-selfbot/linebot/pkg/linetoken/androidlite"
-	"github.com/mopeneko/line-selfbot/linebot/poll"
+	config2 "github.com/prosoxwb/goselfbot/linebot/config"
+	"github.com/prosoxwb/goselfbot/linebot/pkg/config"
+	"github.com/prosoxwb/goselfbot/linebot/pkg/lineclient"
+	"github.com/prosoxwb/goselfbot/linebot/pkg/linetoken/androidlite"
+	"github.com/prosoxwb/goselfbot/linebot/poll"
 	"golang.org/x/xerrors"
 )
 

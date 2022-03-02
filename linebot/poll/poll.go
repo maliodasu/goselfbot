@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/go-utils/cont"
-	"github.com/mopeneko/line-selfbot/linebot/config"
-	"github.com/mopeneko/line-selfbot/linebot/pkg/lineclient"
-	"github.com/mopeneko/line-selfbot/linethrift/talkservice"
+	"github.com/prosoxwb/goselfbot/linebot/config"
+	"github.com/prosoxwb/goselfbot/linebot/pkg/lineclient"
+	"github.com/prosoxwb/goselfbot/linethrift/talkservice"
 )
 
 // Poll - Polling

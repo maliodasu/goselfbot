@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/apache/thrift/lib/go/thrift"
-	"github.com/mopeneko/line-selfbot/linethrift/secondaryqrcodeloginservice"
+	"github.com/prosoxwb/goselfbot/linethrift/secondaryqrcodeloginservice"
 )
 
 // (needed to ensure safety because of naive import list construction.)
